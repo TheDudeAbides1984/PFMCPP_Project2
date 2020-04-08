@@ -111,7 +111,6 @@ bool rentACar(int rentalDuration, int carType = 0)  //function declaration with 
  */
 
 int studyCode(int hourPerDay, int challengesPerDay = 2, int currentProjects = 4)
-
 {
     ignoreUnused(hourPerDay, challengesPerDay, currentProjects );
     return {};
@@ -122,7 +121,6 @@ int studyCode(int hourPerDay, int challengesPerDay = 2, int currentProjects = 4)
  */
 
 bool playGuitar (bool learnedNewChords = true, bool practiceDrills = true)
-
 {
     ignoreUnused(learnedNewChords, practiceDrills);
     return {};
@@ -133,7 +131,6 @@ bool playGuitar (bool learnedNewChords = true, bool practiceDrills = true)
  */
 
 bool workout(bool workedOutToday, bool didCardio, bool eatHealthy)
-
 {
     ignoreUnused(workedOutToday, didCardio, eatHealthy);
     return {};
@@ -144,7 +141,6 @@ bool workout(bool workedOutToday, bool didCardio, bool eatHealthy)
  */
 
 int studySpanish(int newWords, int newPhrases, int minutesPracticed = 20)
-
 {
     ignoreUnused(newWords, newPhrases, minutesPracticed);
     return {};
@@ -155,7 +151,6 @@ int studySpanish(int newWords, int newPhrases, int minutesPracticed = 20)
  */
 
 bool playDrums(bool hasSnare, bool hasKick = true, bool hasCymbals = true, int numToms = 3)
-
 {
     ignoreUnused(hasSnare, hasKick, hasCymbals, numToms);
     return {};
@@ -166,7 +161,6 @@ bool playDrums(bool hasSnare, bool hasKick = true, bool hasCymbals = true, int n
  */
 
 bool printPaper(bool hasPaper = true, bool usbConnected = true, bool wifiConnected = false)
-
 {
     ignoreUnused(hasPaper, usbConnected, wifiConnected);
     return true;
@@ -177,7 +171,6 @@ bool printPaper(bool hasPaper = true, bool usbConnected = true, bool wifiConnect
  */
 
 auto goToWork (int hoursWorked, bool worksFreelance = true, bool stillWorking = false)
-
 {
     ignoreUnused(hoursWorked, worksFreelance, stillWorking);
     return true;
